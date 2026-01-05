@@ -34,7 +34,7 @@ Don't Come To Me And Blame Me For It
 
 ```bash
 git clone https://github.com/scriptkiddiex/phishmail.git
-cd phishmail/phishmail
+cd Phishmail/phishmail
 
 # (Recommended) create virtual environment
 python3 -m venv venv
@@ -50,4 +50,5 @@ pip install -r requirements.txt
 
 # run the tool
 python3 main.py
+
 
