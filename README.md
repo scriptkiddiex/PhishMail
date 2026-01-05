@@ -30,18 +30,24 @@ Don't Come To Me And Blame Me For It
 
 ---
 
-##  Installation
+## Installation
 
 ```bash
 git clone https://github.com/scriptkiddiex/phishmail.git
-cd phishmail
+cd phishmail/phishmail
 
 # (Recommended) create virtual environment
 python3 -m venv venv
+
+# activate virtual environment
+# Linux / macOS
 source venv/bin/activate
+# Windows
+venv\Scripts\activate
 
 # install dependencies
 pip install -r requirements.txt
 
 # run the tool
 python3 main.py
+
